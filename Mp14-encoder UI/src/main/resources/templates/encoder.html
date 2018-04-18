@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Title</title>
+</head>
+<body>
+
+<form  th:action="@{/encoder}" method="post">
+    the messag:
+    <input type="text" name="name"/>
+    <button type="submit"></button>
+</form>
+
+<h2 th:text="${collect}"> </h2>
+
+</body>
+</html>
